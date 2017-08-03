@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		07E3063E1F32D5BD0037C22B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E3063D1F32D5BD0037C22B /* AppDelegate.swift */; };
-		07E306401F32D5BD0037C22B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E3063F1F32D5BD0037C22B /* art.scnassets */; };
 		07E306421F32D5BD0037C22B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E306411F32D5BD0037C22B /* GameViewController.swift */; };
 		07E306451F32D5BD0037C22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E306431F32D5BD0037C22B /* Main.storyboard */; };
 		07E306471F32D5BD0037C22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E306461F32D5BD0037C22B /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		07E3063A1F32D5BD0037C22B /* NachoDip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NachoDip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E3063D1F32D5BD0037C22B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07E3063F1F32D5BD0037C22B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		07E306411F32D5BD0037C22B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		07E306441F32D5BD0037C22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07E306461F32D5BD0037C22B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				07E3063D1F32D5BD0037C22B /* AppDelegate.swift */,
-				07E3063F1F32D5BD0037C22B /* art.scnassets */,
 				07E306411F32D5BD0037C22B /* GameViewController.swift */,
 				07E306431F32D5BD0037C22B /* Main.storyboard */,
 				07E306461F32D5BD0037C22B /* Assets.xcassets */,
@@ -126,7 +123,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07E306401F32D5BD0037C22B /* art.scnassets in Resources */,
 				07E3064A1F32D5BD0037C22B /* LaunchScreen.storyboard in Resources */,
 				07E306471F32D5BD0037C22B /* Assets.xcassets in Resources */,
 				07E306451F32D5BD0037C22B /* Main.storyboard in Resources */,
@@ -305,6 +301,7 @@
 				07E306501F32D5BD0037C22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
